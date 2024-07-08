@@ -2,12 +2,14 @@ from flask import Flask, render_template
 from flask_socketio import SocketIO, emit
 import cv2
 import base64
+# import os
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
 socketio = SocketIO(app)
 
 def generate_frames():
+    # cap = os.path.join(app.static_folder, "비디오 파일명"); # static 폴더에 담아놓을 것
     cap = cv2.VideoCapture(0)  # 웹캠으로부터 비디오 캡처
     while True:
         success, frame = cap.read()
