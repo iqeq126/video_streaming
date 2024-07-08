@@ -9,7 +9,7 @@
   <pre><code>
   python3 server.py
   </code></pre>
-  <p> 3. {your IP address}:5000/</p><br>
+  <p> 3. {your IP address}:5000/video_feed</p><br>
 
   
 </div>
