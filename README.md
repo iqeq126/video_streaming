@@ -3,7 +3,7 @@
   <pre><code>
     sudo apt-get update
     sudo apt-get install python3-pip
-    pip install flask, flask-socketio, requests, opencv-python 
+    pip install flask flask-socketio requests opencv-python 
   </code></pre>
   <p> 2. To run project</p><br>
   <pre><code>
